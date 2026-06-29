@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    background: lightsteelblue;
+}
+
+.ring {
+    width: 100px;
+    height: 100px;
+    border: 8px solid;
+    border-radius: 50%;
+}
+
+.ring-blue   { border-color: blue; }
+.ring-black  { border-color: black; }
+.ring-red    { border-color: red; }
+.ring-yellow { border-color: yellow; }
+.ring-green  { border-color: green; }
+
+.row {
+    display: flex;
+    gap: -10px;
+    justify-content: center;
+    margin-top: 200px;
+}
+.row-bottom {
+    margin-top: -30px;
+}

@@ -1,0 +1,49 @@
+
+
+
+.blue {
+
+    border: 5px solid blue;
+    border-radius: 1000px;
+
+}
+.black {
+
+    border: 5px solid black;
+    border-radius: 1000px;
+
+}
+
+.rings {
+    margin-left: 40%;
+
+}
+.big {
+    font-size: 200px;
+
+
+}
+
+.red {
+
+    border: 5px solid red;
+    border-radius: 1000px;
+
+}
+.yellow {
+
+    border: 5px solid yellow;
+    border-radius: 1000px;
+
+}
+.green {
+
+    border: 5px solid green;
+    border-radius: 1000px;
+
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
