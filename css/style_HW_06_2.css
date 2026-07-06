@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+header {
+    text-align: center;
+}
+.rings-container {
+    position: relative;
+    width: 380px;
+    height: 160px;
+    margin: 50px auto;
+}
+
+.ring {
+    width: 100px;
+    height: 100px;
+    border: 10px solid;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.blue   { border-color: #0085C7; }
+.black  { border-color: #000000; }
+.red    { border-color: #DF0024; }
+.yellow { border-color: #F4C300; }
+.green  { border-color: #009F3D; }
+
+.blue {
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.black {
+    top: 0;
+    left: 130px;
+    z-index: 3;
+}
+.red {
+    top: 0;
+    left: 260px;
+    z-index: 5;
+}
+
+.yellow {
+    top: 50px;
+    left: 65px;
+    z-index: 2;
+}
+.green {
+    top: 50px;
+    left: 195px;
+    z-index: 4;
+}
