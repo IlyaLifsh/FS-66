@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 20px;
+	}
+body {
+	background: #fffcf5;
+	}
+div p {
+	color: red;
+	}
+
+h1 ~ p {
+	color: grey;
+	}
+img {
+	display: block;
+	}
+img[alt]{
+	border: 2px solid green;
+	}
+
+button.btn-primary {
+	background-color: #007bff;
+	}
+
+.checkbox-trigger ~ .btn-delete {
+	opacity: 0.5;
+	}
